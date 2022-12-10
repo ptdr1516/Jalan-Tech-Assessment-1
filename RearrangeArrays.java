@@ -50,10 +50,10 @@ public class RearrangeArrays {
 			
             rearrange(arr, n);
 			
-			System.out.print("\nModified Array: \n");
-			for (int i = 0; i < n; i++)
-				System.out.print(arr[i] + " ");
-			T--;
-		}
+	    System.out.print("\nModified Array: \n");
+	    for (int i = 0; i < n; i++)
+	         System.out.print(arr[i] + " ");
+	    T--;
 	}
+    }
 }
